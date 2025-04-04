@@ -15,7 +15,7 @@ jobs:
       - name: Publish
         uses: cloudflare/pages-action@v1
         with:
-          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          apiToken: ${{ secrets.CLOUDFLARE_WORKERS_SECRET }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           projectName: 'delicate-sound-a268' # e.g. 'my-project'
           directory: 'dist' # e.g. 'dist'

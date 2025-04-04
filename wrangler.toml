@@ -1,3 +1,3 @@
 name = "delicate-sound-a268"
-main = "./src/api/index.ts"
+main = "dist/delicate_sound_a268/index.js"
 compatibility_date = "2024-11-01"

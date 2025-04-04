@@ -5,7 +5,7 @@
 {
 	"$schema": "node_modules/wrangler/config-schema.json",
 	"name": "delicate-sound-a268",
-	"main": "./src/api/index.ts",
+	"main": "dist/delicate_sound_a268/index.js", //"./src/api/index.ts",
 	"compatibility_date": "2024-11-01",
 	"compatibility_flags": [
 		"nodejs_compat"

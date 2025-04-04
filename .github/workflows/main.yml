@@ -14,3 +14,4 @@ jobs:
         with:
           apiToken: ${{ secrets.CLOUDFLARE_WORKERS_SECRET }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+      - run: npm run deploy
